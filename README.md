@@ -1,1 +1,1 @@
-# AStarPathFinding.github.io
+# AStarPathFinding
