@@ -1,6 +1,6 @@
-// edited : solved bug on graph.js line :195 duplicate splice
 // bug on A*path algorithm 
 // doing spiral maze will cause an error
+// edited : solved bug on graph.js 195 duplicate splice
 
 /*
 thing that can improve :
@@ -22,6 +22,9 @@ function setup() {
 	goal = graph.cells[graph.rows/2][graph.cols/2];
 	graph.initAPath(start, goal);
 	// put setup code here
+
+	txt = "Control Button<br />S : set start position<br />G : set goal position<br />Z : make a obstacle<br />R : run path finding<br />X : reset"
+	createP(txt)
 }
 
 function draw() {
